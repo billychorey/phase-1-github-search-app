@@ -6,8 +6,55 @@
 
 #github-container {
   display: flex;
+  flex-direction: column;
+
 }
 
 ul {
   list-style: none;
+}
+
+.user-card {
+  box-shadow:currentColor;
+  border: 1px solid black;
+  border-radius:3px;
+  margin-bottom: 1rem;
+  padding: .75rem;
+  background: lightgray;
+}
+
+.user-card img {
+  border-radius: 3px;
+  display: block;
+  width: 300px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.user-card p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.user-card a {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: .25rem;
+  color: white;
+  background: black;
+  padding: .25rem;
+  border-radius: 3px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  background: white;
+  color: black;
+}
+
+h1 {
+  font-family: sans-serif;
 }
